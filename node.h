@@ -7,10 +7,22 @@ class Matrix;
 template <typename T>
 class Node {
 protected:
-    Node<T> *next, *down;
+    T data;
+    int posX, posY;
+    Node<T> *right, *down;
 
 public:
-    explicit Node();
+    explicit Node(int posX, int posY, T data){
+        right = down = nullptr;
+        this->data = data;
+        this->posX = posX;
+        this->posY = posY;
+    };
+
+    void genocidio() {
+        if (right) right->genocidio();
+        delete this;
+    }
 
     friend class Matrix<T>;
 };

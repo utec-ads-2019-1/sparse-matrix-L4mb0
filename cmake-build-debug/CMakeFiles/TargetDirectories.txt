@@ -1,0 +1,3 @@
+/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/CMakeFiles/sparse_matrix_L4mb0.dir
+/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/CMakeFiles/edit_cache.dir

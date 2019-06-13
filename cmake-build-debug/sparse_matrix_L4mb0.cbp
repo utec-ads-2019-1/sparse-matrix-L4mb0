@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sparse_matrix_L4mb0"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sparse_matrix_L4mb0">
+				<Option output="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/sparse_matrix_L4mb0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/."/>
+					<Add directory="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/mocker"/>
+					<Add directory="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/tester"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 sparse_matrix_L4mb0"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sparse_matrix_L4mb0/fast">
+				<Option output="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/sparse_matrix_L4mb0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/."/>
+					<Add directory="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/mocker"/>
+					<Add directory="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/tester"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 sparse_matrix_L4mb0/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/main.cpp">
+			<Option target="sparse_matrix_L4mb0"/>
+		</Unit>
+		<Unit filename="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/matrix.h">
+			<Option target="sparse_matrix_L4mb0"/>
+		</Unit>
+		<Unit filename="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/mocker/mocker.cpp">
+			<Option target="sparse_matrix_L4mb0"/>
+		</Unit>
+		<Unit filename="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/mocker/mocker.h">
+			<Option target="sparse_matrix_L4mb0"/>
+		</Unit>
+		<Unit filename="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/node.h">
+			<Option target="sparse_matrix_L4mb0"/>
+		</Unit>
+		<Unit filename="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/tester/tester.cpp">
+			<Option target="sparse_matrix_L4mb0"/>
+		</Unit>
+		<Unit filename="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/tester/tester.h">
+			<Option target="sparse_matrix_L4mb0"/>
+		</Unit>
+		<Unit filename="/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
