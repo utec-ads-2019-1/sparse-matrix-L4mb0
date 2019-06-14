@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/main.cpp
-iostream
--
-tester/tester.h
-/home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/tester/tester.h
-
 /home/l4mb0/Documents/tareas/ciclo5/AED/sparse-matrix-L4mb0/matrix.h
 stdexcept
 -

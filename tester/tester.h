@@ -25,7 +25,7 @@ using namespace std;
 #   define ASSERT(condition, message) do { } while (false)
 #endif
 
-#define NUMBER_OF_TESTS 1
+#define NUMBER_OF_TESTS 10
 
 class Tester {
     private:
