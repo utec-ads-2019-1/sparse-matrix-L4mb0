@@ -31,7 +31,7 @@ void Tester::testMatrix(unsigned int rows, unsigned int columns) {
     int **matrix2 = buildMatrix<T>(rows, columns);
     Matrix<T> test2 = setMatrix<T>(matrix2, rows, columns);
     result = test1 + test2;
-    result.print();
+    //result.print();
 
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {

@@ -127,7 +127,7 @@ public:
 
     };
 
-    Matrix<T> operator*(T scalar) const{
+    const Matrix<T> operator*(T scalar) const{
         Matrix<T> result(totRows, totColumns);
         for (unsigned i = 0; i < totRows; ++i) {
             for (unsigned j = 0; j < totColumns; ++j) {
@@ -137,7 +137,7 @@ public:
         return result;
     };
 
-    Matrix<T> operator*(Matrix<T> other) const{
+    const Matrix<T> operator*(Matrix<T> other) const{
         if(totColumns != other.totRows) throw out_of_range ("las matrices no coinciden");
         Matrix<T> result(totRows, totColumns);
         for (unsigned i = 0; i < totRows; ++i) {
@@ -161,7 +161,7 @@ public:
         return result;
     };
 
-    Matrix<T> operator-(Matrix<T> other) const{
+    const Matrix<T> operator-(Matrix<T> other) const{
         Matrix<T> result(totRows, totColumns);
         for (unsigned i = 0; i < totRows; ++i) {
             for (unsigned j = 0; j < totColumns; ++j) {
@@ -171,7 +171,7 @@ public:
         return result;
     };
 
-    Matrix<T> transpose() const{
+    const Matrix<T> transpose() const{
         Matrix<T> result(totRows, totColumns);
         for (unsigned i = 0; i < totRows; ++i) {
             for (unsigned j = 0; j < totColumns; ++j) {
